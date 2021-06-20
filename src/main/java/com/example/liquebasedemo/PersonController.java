@@ -8,7 +8,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/person")
 public class PersonController {
-//asjnjk
+
+    int i=34;
     @Autowired
     private PersonRepository repository;
 
