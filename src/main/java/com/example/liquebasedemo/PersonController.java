@@ -9,7 +9,6 @@ import java.util.List;
 @RequestMapping("/person")
 public class PersonController {
 
-    //this is a controler class
     int i=34;
     @Autowired
     private PersonRepository repository;
@@ -28,6 +27,11 @@ public class PersonController {
 
     @GetMapping("wee")
     public List<Person> getallqq(){
+        return (List<Person>) repository.findAll();
+    }
+
+    @GetMapping("wee11")
+    public List<Person> getallqqqq(){
         return (List<Person>) repository.findAll();
     }
 }
