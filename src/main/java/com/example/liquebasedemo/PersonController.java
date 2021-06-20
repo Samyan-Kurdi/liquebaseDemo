@@ -9,6 +9,7 @@ import java.util.List;
 @RequestMapping("/person")
 public class PersonController {
 
+    //this is a controler class
     @Autowired
     private PersonRepository repository;
 
