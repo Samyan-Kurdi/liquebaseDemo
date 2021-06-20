@@ -10,6 +10,7 @@ import java.util.List;
 public class PersonController {
 
     //this is a controler class
+    int i;
     @Autowired
     private PersonRepository repository;
 
