@@ -28,4 +28,9 @@ public class PersonController {
     public List<Person> getallqq(){
         return (List<Person>) repository.findAll();
     }
+
+    @GetMapping("wee11")
+    public List<Person> getallqqqq(){
+        return (List<Person>) repository.findAll();
+    }
 }
